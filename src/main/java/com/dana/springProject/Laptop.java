@@ -1,9 +1,9 @@
 package com.dana.springProject;
 
-public class Laptop
+public class Laptop implements Computer
 {
-    public void complile()
+    public void compile()
     {
-        System.out.println("Code Compiled");
+        System.out.println("Code Compiled in laptop");
     }
 }
